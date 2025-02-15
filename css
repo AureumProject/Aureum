@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('galaxy-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* Header Styles */
+.hero-header {
+    text-align: center;
+    padding: 50px 0;
+    background: rgba(0, 0, 0, 0.7); /* Dark background overlay */
+}
+
+.hero-header .logo {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.hero-header h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.hero-header h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: rgba(0, 0, 0, 0.6); /* Dark background overlay */
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+/* Features Section */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.feature-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.feature-box h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.feature-box p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* About Section */
+.about, .technology {
+    padding: 60px 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.about h3, .technology h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Call to Action Section */
+.cta {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cta h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 1.2em;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.7);
+}
