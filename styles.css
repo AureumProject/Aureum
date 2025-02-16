@@ -34,7 +34,7 @@ body {
 /* Hero Section */
 .hero {
     text-align: center;
-    padding: 100px 20px;
+    padding: 50px 20px; /* Reduced padding */
     background: linear-gradient(to bottom, #333, #222, #111); /* Match feature box gradient */
 }
 
@@ -53,54 +53,54 @@ body {
 .features {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-    padding: 60px 20px;
+    gap: 20px; /* Reduced gap */
+    padding: 40px 20px; /* Reduced padding */
     text-align: center;
 }
 
 .feature-box {
     background: linear-gradient(to bottom, #333, #222, #111); /* Charcoal grey to black gradient */
-    padding: 20px; /* Reduced padding */
+    padding: 15px; /* Reduced padding */
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); /* Shadow effect */
     color: white; /* White font color */
 }
 
 .feature-box h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    font-size: 1.4em; /* Slightly smaller heading */
+    margin-bottom: 8px; /* Reduced margin */
 }
 
 .feature-box p {
     font-size: 1em;
-    line-height: 1.5;
+    line-height: 1.4; /* Reduced line height */
 }
 
 /* About Section */
 .about, .technology {
-    padding: 40px 20px; /* Reduced padding */
+    padding: 30px 20px; /* Reduced padding */
     text-align: center;
     background: linear-gradient(to bottom, #333, #222, #111); /* Match feature box gradient */
-    margin-top: 20px;
+    margin-top: 15px; /* Reduced margin */
     border-radius: 10px;
 }
 
 .about h3, .technology h3 {
-    font-size: 2em;
-    margin-bottom: 20px;
+    font-size: 1.8em; /* Reduced font size */
+    margin-bottom: 15px; /* Reduced margin */
 }
 
 /* Call to Action Section */
 .cta {
     background: linear-gradient(to bottom, #333, #222, #111); /* Match feature box gradient */
-    padding: 40px 20px; /* Reduced padding */
+    padding: 30px 20px; /* Reduced padding */
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15px; /* Reduced margin */
 }
 
 .cta h3 {
-    font-size: 2em;
-    margin-bottom: 20px;
+    font-size: 1.8em; /* Reduced font size */
+    margin-bottom: 15px; /* Reduced margin */
 }
 
 .cta p {
@@ -110,6 +110,6 @@ body {
 /* Footer Styles */
 footer {
     text-align: center;
-    padding: 20px 0;
+    padding: 15px 0; /* Reduced padding */
     background: linear-gradient(to bottom, #333, #222, #111); /* Match feature box gradient */
 }
