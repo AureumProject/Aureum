@@ -13,7 +13,7 @@ body {
 .hero-header {
     text-align: center;
     padding: 50px 0;
-    background: rgba(0, 0, 0, 0.7); /* Dark background overlay */
+    background: linear-gradient(to bottom, #333, #222, #111); /* Match feature box gradient */
 }
 
 .hero-header .logo {
@@ -35,7 +35,7 @@ body {
 .hero {
     text-align: center;
     padding: 100px 20px;
-    background: rgba(0, 0, 0, 0.6); /* Dark background overlay */
+    background: linear-gradient(to bottom, #333, #222, #111); /* Match feature box gradient */
 }
 
 .hero img {
@@ -60,9 +60,9 @@ body {
 
 .feature-box {
     background: linear-gradient(to bottom, #333, #222, #111); /* Charcoal grey to black gradient */
-    padding: 30px;
+    padding: 20px; /* Reduced padding */
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); /* Shadow effect */
     color: white; /* White font color */
 }
 
@@ -78,9 +78,9 @@ body {
 
 /* About Section */
 .about, .technology {
-    padding: 60px 20px;
+    padding: 40px 20px; /* Reduced padding */
     text-align: center;
-    background: rgba(0, 0, 0, 0.6);
+    background: linear-gradient(to bottom, #333, #222, #111); /* Match feature box gradient */
     margin-top: 20px;
     border-radius: 10px;
 }
@@ -92,8 +92,8 @@ body {
 
 /* Call to Action Section */
 .cta {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 60px 20px;
+    background: linear-gradient(to bottom, #333, #222, #111); /* Match feature box gradient */
+    padding: 40px 20px; /* Reduced padding */
     text-align: center;
     margin-top: 20px;
 }
@@ -111,5 +111,5 @@ body {
 footer {
     text-align: center;
     padding: 20px 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: linear-gradient(to bottom, #333, #222, #111); /* Match feature box gradient */
 }
