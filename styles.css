@@ -56,6 +56,7 @@ body {
     gap: 15px; /* Reduced gap between boxes */
     padding: 30px 20px; /* Reduced padding */
     text-align: center;
+    background: linear-gradient(to bottom, #FFD700, #FFD700, #FF6347); /* Gradient gold aurora borealis */
 }
 
 .feature-box {
@@ -80,7 +81,7 @@ body {
 .about, .technology {
     padding: 30px 20px; /* Reduced padding */
     text-align: center;
-    background: linear-gradient(to bottom, #333, #222, #111); /* Match feature box gradient */
+    background: linear-gradient(to bottom, #FFD700, #FFD700, #FF6347); /* Gradient gold aurora borealis */
     margin-top: 15px; /* Reduced margin */
     border-radius: 10px;
 }
@@ -92,7 +93,7 @@ body {
 
 /* Call to Action Section */
 .cta {
-    background: linear-gradient(to bottom, #333, #222, #111); /* Match feature box gradient */
+    background: linear-gradient(to bottom, #FFD700, #FFD700, #FF6347); /* Gradient gold aurora borealis */
     padding: 30px 20px; /* Reduced padding */
     text-align: center;
     margin-top: 15px; /* Reduced margin */
@@ -111,5 +112,5 @@ body {
 footer {
     text-align: center;
     padding: 15px 0; /* Reduced padding */
-    background: linear-gradient(to bottom, #333, #222, #111); /* Match feature box gradient */
+    background: linear-gradient(to bottom, #FFD700, #FFD700, #FF6347); /* Gradient gold aurora borealis */
 }
