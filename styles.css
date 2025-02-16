@@ -59,10 +59,11 @@ body {
 }
 
 .feature-box {
-    background: rgba(255, 255, 255, 0.1);
+    background: linear-gradient(to bottom, #333, #222, #111); /* Charcoal grey to black gradient */
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: white; /* White font color */
 }
 
 .feature-box h3 {
