@@ -115,7 +115,7 @@ footer {
     background: none; /* No gradient for the footer */
 }
 
-/* Between Boxes Gradient */
+/* Gradient between Boxes */
 .features + .about,
 .about + .technology,
 .technology + .cta {
