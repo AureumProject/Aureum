@@ -56,7 +56,7 @@ body {
     gap: 15px; /* Reduced gap between boxes */
     padding: 30px 20px; /* Reduced padding */
     text-align: center;
-    background: linear-gradient(to bottom, #FFD700, #FFD700, #FF6347); /* Gradient gold aurora borealis */
+    background: none; /* No gradient for this section itself */
 }
 
 .feature-box {
@@ -81,7 +81,7 @@ body {
 .about, .technology {
     padding: 30px 20px; /* Reduced padding */
     text-align: center;
-    background: linear-gradient(to bottom, #FFD700, #FFD700, #FF6347); /* Gradient gold aurora borealis */
+    background: none; /* No gradient for this section */
     margin-top: 15px; /* Reduced margin */
     border-radius: 10px;
 }
@@ -93,7 +93,7 @@ body {
 
 /* Call to Action Section */
 .cta {
-    background: linear-gradient(to bottom, #FFD700, #FFD700, #FF6347); /* Gradient gold aurora borealis */
+    background: none; /* No gradient for this section */
     padding: 30px 20px; /* Reduced padding */
     text-align: center;
     margin-top: 15px; /* Reduced margin */
@@ -112,5 +112,14 @@ body {
 footer {
     text-align: center;
     padding: 15px 0; /* Reduced padding */
-    background: linear-gradient(to bottom, #FFD700, #FFD700, #FF6347); /* Gradient gold aurora borealis */
+    background: none; /* No gradient for the footer */
+}
+
+/* Between Boxes Gradient */
+.features + .about,
+.about + .technology,
+.technology + .cta {
+    background: linear-gradient(to bottom, #FFD700, #FF6347); /* Gradient gold aurora borealis between sections */
+    margin-top: 0; /* Remove excess spacing between sections */
+    padding: 0; /* Remove extra padding */
 }
