@@ -7,17 +7,18 @@ body {
     background-size: cover;
     color: white;
     overflow-x: hidden;
+    text-align: center;
 }
 
 /* Header Styles */
 .hero-header {
-    text-align: center;
     padding: 50px 0;
-    background: linear-gradient(to bottom, #333, #222, #111); /* Match feature box gradient */
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
 .hero-header .logo {
-    max-width: 200px;
+    max-width: 180px;
     margin-bottom: 20px;
 }
 
@@ -33,83 +34,74 @@ body {
 
 /* Hero Section */
 .hero {
-    text-align: center;
-    padding: 50px 20px; /* Reduced padding */
-    background: linear-gradient(to bottom, #333, #222, #111); /* Match feature box gradient */
+    padding: 60px 20px;
+    background: rgba(10, 10, 30, 0.9);
+    box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease-in-out;
 }
 
-.hero img {
-    width: 100%;
-    height: auto;
-    max-width: 800px;
+.hero:hover {
+    background: rgba(15, 15, 40, 0.9);
+}
+
+.hero h2 {
+    font-size: 2.5em;
 }
 
 .hero p {
     font-size: 1.2em;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 /* Features Section */
 .features {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px; /* Reduced gap */
-    padding: 40px 20px; /* Reduced padding */
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
 }
 
 .feature-box {
-    background: linear-gradient(to bottom, #333, #222, #111); /* Charcoal grey to black gradient */
-    padding: 15px; /* Reduced padding */
+    background: rgba(20, 20, 50, 0.8);
+    padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); /* Shadow effect */
-    color: white; /* White font color */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+    max-width: 300px;
+}
+
+.feature-box:hover {
+    transform: scale(1.05);
+    background: rgba(25, 25, 60, 0.9);
 }
 
 .feature-box h3 {
-    font-size: 1.4em; /* Slightly smaller heading */
-    margin-bottom: 8px; /* Reduced margin */
+    font-size: 1.5em;
 }
 
 .feature-box p {
     font-size: 1em;
-    line-height: 1.4; /* Reduced line height */
 }
 
-/* About Section */
-.about, .technology {
-    padding: 30px 20px; /* Reduced padding */
-    text-align: center;
-    background: linear-gradient(to bottom, #333, #222, #111); /* Match feature box gradient */
-    margin-top: 15px; /* Reduced margin */
-    border-radius: 10px;
+/* Technology Section */
+.technology {
+    padding: 50px 20px;
+    background: rgba(10, 10, 30, 0.9);
+    box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
-.about h3, .technology h3 {
-    font-size: 1.8em; /* Reduced font size */
-    margin-bottom: 15px; /* Reduced margin */
+.technology h2 {
+    font-size: 2.5em;
 }
 
-/* Call to Action Section */
-.cta {
-    background: linear-gradient(to bottom, #333, #222, #111); /* Match feature box gradient */
-    padding: 30px 20px; /* Reduced padding */
-    text-align: center;
-    margin-top: 15px; /* Reduced margin */
-}
-
-.cta h3 {
-    font-size: 1.8em; /* Reduced font size */
-    margin-bottom: 15px; /* Reduced margin */
-}
-
-.cta p {
+.technology p {
     font-size: 1.2em;
 }
 
-/* Footer Styles */
+/* Footer */
 footer {
-    text-align: center;
-    padding: 15px 0; /* Reduced padding */
-    background: linear-gradient(to bottom, #333, #222, #111); /* Match feature box gradient */
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    font-size: 0.9em;
 }
